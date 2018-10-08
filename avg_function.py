@@ -8,8 +8,7 @@ def avg(x):
     a=0
     for i in x:
         a=a+i
-        b=a/len(x)
-    return(b)
+    return a/len(x)
 
 print(avg([2,2,2,2,2]))
 print(avg([4,6,55,18,17,12]))
